@@ -82,3 +82,7 @@ path = a_star(road_graph, start_city, goal_city)
 distance = calculate_distance(road_graph, path)
 print("Shortest Path from {} to {}: {}".format(start_city, goal_city, path))
 print("Total distance: {}".format(distance))
+
+# Output:
+# Shortest Path from Arad to Bucharest: ['Arad', 'Sibiu', 'Rimnicu Vilcea', 'Pitesti', 'Bucharest']
+# Total distance: 418
