@@ -31,3 +31,11 @@ if solution_path:
         print(f"({state[0]}, {state[1]})")
 else:
     print("No solution found.")
+
+# Output:
+# Solution found:
+# (0, 0)
+# (0, 3)
+# (3, 0)
+# (3, 3)
+# (4, 2)
