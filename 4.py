@@ -41,19 +41,37 @@ def AO_star(node):
     return node.heuristic
 
 A = Node('A')
-B = Node('B')
+B = Node('B', heuristic=0)
 C = Node('C', heuristic=0)
-D = Node('D')
+D = Node('D', heuristic=0)
 E = Node('E', heuristic=3)
 G = Node('G', heuristic=0)
 H = Node('H', heuristic=0)
 
 D.add_child('OR', [G], 0)
 D.add_child('OR', [H], 0)
-B.add_child('AND', [D, E], 0)
+B.add_child('AND', [D, E], 1)
 A.add_child('OR', [B], 0)
 A.add_child('OR', [C], 0)
 
 print("AO* SEARCH OUTPUT:")
 final_cost = AO_star(A)
 print(f"\nFinal solution cost for node {A.name}: {final_cost}")
+
+# Output:
+# AO* SEARCH OUTPUT:
+
+# Expanding node: A
+# Best path from A → ['B'] (type: OR) with cost: 0
+
+# Expanding node: B
+# Best path from B → ['D', 'E'] (type: AND) with cost: 4
+
+# Expanding node: D
+# Best path from D → ['G'] (type: OR) with cost: 0
+
+# Expanding node: G
+
+# Expanding node: E
+
+# Final solution cost for node A: 0
