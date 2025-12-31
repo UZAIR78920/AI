@@ -63,60 +63,44 @@ while True:
         print("It's a draw!") 
         break 
 
-
 # Output:
-# |   |   |   |
-# |   |   |   |
-# |   |   |   |
+|   |   |   |
+|   |   |   |
+|   |   |   |
 
-# Your turn player 1
-# Enter your move (1-9): 5
+Your turn player 1
+Enter your move (1-9): 1
 
-# |   |   |   |
-# |   | X |   |
-# |   |   |   |
+| X |   |   |
+|   |   |   |
+|   |   |   |
 
-# Your turn player 2
-# Enter your move (1-9): 1
+Your turn player 2
+Enter your move (1-9): 2
 
-# | O |   |   |
-# |   | X |   |
-# |   |   |   |
+| X | O |   |
+|   |   |   |
+|   |   |   |
 
-# Your turn player 1
-# Enter your move (1-9): 9
+Your turn player 1
+Enter your move (1-9): 4
 
-# | O |   |   |
-# |   | X |   |
-# |   |   | X |
+| X | O |   |
+| X |   |   |
+|   |   |   |
 
-# Your turn player 2
-# Enter your move (1-9): 7
+Your turn player 2
+Enter your move (1-9): 5
 
-# Enter your move (1-9): 7
+| X | O |   |
+| X | O |   |
+|   |   |   |
 
+Your turn player 1
+Enter your move (1-9): 7
 
-# | O |   |   |
-# |   | X |   |
-# |   | X |   |
-# | O |   | X |
+| X | O |   |
+| X | O |   |
+| X |   |   |
 
-
-# Your turn player 1
-# Enter your move (1-9): 3
-
-# | O |   | X |
-# |   | X |   |
-# | O |   | X |
-# |   | X |   |
-# |   | X |   |
-# | O |   | X |
-
-# Your turn player 2
-# Enter your move (1-9): 4
-
-# | O |   | X |
-# | O | X |   |
-# | O |   | X |
-
-# O wins! Congratulations!
+X wins! Congratulations!
